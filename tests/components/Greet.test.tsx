@@ -1,8 +1,5 @@
-import { it, expect, describe } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import Greet from '../../src/components/Greet';
-import { debug } from 'console';
-import '@testing-library/jest-dom/vitest'
 
 describe('Greet', () => {
     it('should render hello with name when provided', () =>{
